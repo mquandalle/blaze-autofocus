@@ -1,13 +1,13 @@
 Package.describe({
   name: 'mquandalle:autofocus',
-  version: '0.1.0',
+  version: '1.0.0',
   summary: 'Support autofocus attribute in Blaze templates',
   git: 'https://github.com/mquandalle/blaze-autofocus',
   documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0.3.1');
+  api.versionsFrom('1.0.4-rc.3');
   api.use('blaze');
   api.use('templating');
   api.use('underscore');
